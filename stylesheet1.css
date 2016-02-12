@@ -1,0 +1,38 @@
+ul {
+    position: fixed;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(75,145,215,1);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin: 0px;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+li a:hover {
+    background-color: rgba(250,250,250,1);
+    color: rgba(75,145,215,1);
+}
+
+.ctrtext {
+    margin-top: 10%;
+    left: 50%;
+    
+    
+}
