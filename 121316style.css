@@ -1,0 +1,27 @@
+/* 121316 pop out menu bar */
+
+body {
+    background-color: orange;
+}
+
+.click {
+    position: relative;
+    display: inline-block;
+}
+
+.click:before {
+    content: "Menu";
+}
+
+.click:focus .clicky {
+    visibility: visible;
+}
+
+.clicky {
+    list-style-type: none;
+    position: absolute;
+    z-index: 1;
+    
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
